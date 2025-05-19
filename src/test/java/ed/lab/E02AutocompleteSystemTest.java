@@ -120,7 +120,7 @@ class E02AutocompleteSystemTest {
         catch (IOException e) {
             throw new RuntimeException(e);
         }
-    }
+    }//a
 
     private record AutocompleteOperations(String operationName, String arguments, String expected) {
         @Override
